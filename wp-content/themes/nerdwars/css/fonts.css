@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/08/2015, 23:46:31
+    Author     : Sammy Guergachi <sguergachi at gmail.com>
+*/
+
+@font-face{
+    font-family: bebas;
+    src: url("../fonts/Bebas/BEBAS___.ttf");
+}
+
+@font-face{
+    font-family: viga;
+    src: url("../fonts/viga/Viga-Regular.otf");
+}
+
+@font-face{
+    font-family: montserrat-bold;
+    src: url("../fonts/montserrat/Montserrat-Bold.otf");
+}
+
+@font-face{
+    font-family: montserrat-light;
+    src: url("../fonts/montserrat/Montserrat-Light.otf");
+}
+
+@font-face{
+    font-family: montserrat-regular;
+    src: url("../fonts/montserrat/Montserrat-Regular.otf");
+}
+
+@font-face{
+    font-family: Dosis;
+    src: url("../fonts/dosis/Dosis-Regular.otf");
+}
+
+@font-face{
+    font-family: Lato;
+    src: url("../fonts/lato/Lato-Regular.ttf");
+}

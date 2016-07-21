@@ -1,0 +1,52 @@
+/********************
+****CAROUSEL POSTS****
+*********************/
+#carousel{
+    display: none;
+}
+
+
+/********************
+****CONTENT PAGE****
+*********************/
+#content{
+    margin-top: 60px;
+}
+
+#main-content{
+    float: right;
+    background: #fff;
+    max-width: 750px
+}
+
+#content-page-post{
+    border: 2px solid #ddd;
+}
+
+#content-page-post header{
+    border: 1px solid #ddd;
+    padding-left: 0;
+    font-family: viga;
+    background: #f5f5f5;
+}
+
+#content-page-post header h1{
+    padding: 20px;
+    border-left: 4px #122b40 solid;
+    margin: 0;
+
+}
+
+#content-page-post article{
+    padding: 20px;
+    border: 0px solid #ddd;
+    border-top: 0;
+}
+
+/********************
+****SIDEBAR PAGE****
+*********************/
+#sidebars{
+    float: left;
+}
+

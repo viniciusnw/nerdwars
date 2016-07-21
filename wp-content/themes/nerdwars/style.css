@@ -1,0 +1,842 @@
+/*
+Theme Name: Nerd Wars
+Theme URI: http://www.nerdwars.blog.br
+Description: Tema blog
+Version: 1.0
+Author: Vinicius Inacio
+Author URL: http://www.nerdwars.blog.br
+Tags: blog, nerd, humor, games, animes, geek
+*/
+
+body{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/bg.jpg");
+    overflow-x: hidden;
+}
+
+
+/**************
+*****HEADER****
+***************/
+#header{
+    font-family: bebas;
+    text-transform: uppercase;
+}
+
+#menu_topo{
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    box-shadow: 0px 11px 17px 0px rgba(0,0,0,0.75);
+    z-index: 10;
+}
+
+#menu_topo .container{
+    max-width: 940px;
+}
+
+#menu_topo #menuList{
+    position: relative;
+}
+
+#menu_topo #menuList .nav{
+    float: right;
+}
+
+#menu_topo #menuList .nav li{
+    border-right: 1px #000 solid;
+}
+
+#menu_topo #menuList .nav li a,
+#menu_topo #menuList .nav li #categorias{
+    padding: 18px 22px;
+}
+
+#menu_topo #menuList .nav li #categorias{
+    height: 56px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+#menu_topo #menuList .nav li #categorias:hover{
+    color: #fff;
+}
+
+#menu_topo #menuList .nav li span{
+    text-shadow: 2px 2px 5px #000;
+    font-size: 13.5pt;
+}
+
+
+/**************
+****CAROUSEL***
+***************/
+#carousel{
+    box-shadow: 0px 10px 10px 0px rgba(3,3,3,0.40);
+    position: relative;
+    z-index: 1;
+}
+
+#carousel #carouselPosts .item{
+    display: block;
+    max-height: 580px;
+    text-align: center;
+}
+
+#carousel #carouselPosts .item img{
+    width: 100%;
+}
+
+#carousel #carouselPosts .item .carouselCaption{
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: montserrat-bold;
+    margin-bottom: 90px;
+    padding: 25px 50px 0 150px;
+    background: rgba(0,0,0, 0.60);
+    color: #fff;
+    min-height: 120px;
+    border-radius: 0 20px 20px 0;
+}
+
+#carousel #carouselPosts .item .carouselCaption .carouselCategorias{
+    background: #222E50;
+    position: absolute;
+    padding: 5px 10px;
+    top: -15px;
+    font-family: montserrat-light;
+    font-size: 12px;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+}
+
+#carousel #carouselPosts .item .carouselCaption h4 span,
+#carousel #carouselPosts .item .carouselCaption .carouselCategorias span{
+    margin: 0 10px 0 10px;
+}
+
+#carousel #carouselPosts .item .carouselCaption a{
+    color: #fff;
+}
+
+#carousel #carouselPosts .item .carouselCaption h1{
+    letter-spacing: 4px;
+    font-size: 35pt;
+    margin: 0;
+}
+
+#carousel #carouselPosts .item .carouselCaption .carouselCaptionRodape{
+    padding-top: 60px;
+}
+
+#carousel #carouselPosts .item .carouselCaption .carouselCaptionRodape h4{
+    text-transform: none;
+    font-style: italic;
+    color: #999999;
+    font-family: montserrat-light;
+    margin-bottom: 20px;
+    font-size: 11pt;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+}
+#carousel #carouselPosts .item .carouselCaption .carouselCaptionRodape h4 a{
+    color: #999999;
+}
+
+#carousel #carouselPosts .owl-controls{
+    margin-top: -40px;
+}
+
+#carousel #carouselPosts .owl-controls .owl-pagination .owl-page span{
+    background: #fff;
+    border-radius: 0;
+    opacity: 0.9;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+}
+
+#carousel #carouselPosts .owl-controls .owl-pagination .active span{
+    background: #333;
+    opacity: 0.9;
+    border: 1px solid #fff;
+}
+
+#carousel .clearfix{
+    height: 15px;
+}
+
+
+/**********************
+**CAROUSEL CATEGORIAS**
+***********************/
+#carousel-categorias{
+    width: 100%;
+    z-index: -1;
+    margin-top: -2px; 
+    background: #f0f0f0;
+}
+
+#carousel-categorias #content-carousel-categorias{
+    background: #f0f0f0;
+    max-width: 1349px;
+    margin: 0 auto;
+}
+
+#carousel-categorias .row{
+    margin: 0;
+}
+
+#carousel-categorias #content-carousel-categorias .item{
+    min-height: 60px;
+    text-align: center;
+    border-left: 2px solid #f0f0f0;
+    background: #222E50;
+    color: #fff;
+    font-size: 20px;
+    font-family: Dosis;
+    padding: 16px 0;
+    float: left;
+    width: 16.66666667%;
+}
+#carousel-categorias #content-carousel-categorias .item:hover,
+#carousel-categorias #content-carousel-categorias .item:active,
+#carousel-categorias #content-carousel-categorias .item:focus{
+    text-decoration: none;
+    transition: background 0.15s linear;
+}
+
+#carousel-categorias #content-carousel-categorias #item1:hover{
+    background: #fc4138;   
+}
+
+#carousel-categorias #content-carousel-categorias #item2:hover{
+    background: #daa520; 
+}
+
+#carousel-categorias #content-carousel-categorias #item3:hover{
+    background: #c3c3c3;   
+}
+
+#carousel-categorias #content-carousel-categorias #item4:hover{
+    background: #343026;   
+}
+
+#carousel-categorias #content-carousel-categorias #item5:hover{
+    background: #fe7e00;
+}
+
+#carousel-categorias #content-carousel-categorias #item6:hover{
+    background: #329961;
+}
+
+#item6 .fa{
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+
+/**************
+****CONTENT****
+***************/
+#content{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+}
+
+#content-wrapper{
+    max-width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+
+/**************
+******ADS******
+***************/
+#content #content-wrapper #ads-content{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+#content #content-wrapper #ads-content .ad div{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: auto;
+    padding: 40% 0;
+}
+
+
+/**************
+***MAIN POST***
+***************/
+#main-content{
+    max-width: 720px;
+    width: 100%;
+    float: left;
+}
+
+#main-content .post{
+    position: relative;
+    margin: 0 auto;
+}
+
+/********************
+****CONTENT POSTS****
+*********************/
+/*
+    Alinhamento Imagens
+    * garante que a imagem nao passa o tamanho da postagem
+    * alinha ao centro
+    * alinha a direita/esquerda com float
+*/
+.post article img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.post article img.aligncenter{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.post article img.alignleft{
+    float: left;
+    margin-right: 5px;
+}
+
+.post article img.alignright{
+    float: right;
+    margin-left: 5px;
+}
+
+
+/*********************
+**NORMAL POST HEADER**
+**********************/
+#main-content .post .normal-post header .title{
+    position: relative;
+    padding: 25px 0px 25px 0px;
+    width: 100%;
+    background: #143052;
+    background: linear-gradient(to bottom, #222E50 0%, #2F323A 100%);
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-family: viga;
+}
+#main-content .post .normal-post header .title:before{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 10px 15px 0;
+    border-style: solid;
+    border-color: transparent #222 transparent transparent;
+    content: " ";
+}
+#main-content .post .normal-post header .title:after{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 0 15px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #222;
+    content: " ";
+}
+
+#main-content .post .normal-post header a:hover{
+    text-decoration: none;
+}
+
+
+/*********************
+***INFOS NORMAL POST**
+**********************/
+#main-content .post .normal-post header .infosPost{
+    padding: 25px;
+    background: #f5f5f5;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    font-family: montserrat-light;
+}
+
+#main-content .post .normal-post header .infosPost .categoria{
+    float: right;
+}
+
+#main-content .post .normal-post header .infosPost .date{
+    margin-left: 40px;
+}
+
+
+/*******************
+*****NORMAL POST****
+********************/
+#main-content .post .normal-post article{
+    padding: 25px;
+    margin: 0 10px;
+    background: #fff;
+    box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#main-content .bottom{
+    max-width: 513px;
+    width: 100%;
+    height: 30px;
+}
+
+
+/*********************
+**RODAPE NORMAL POST**
+**********************/
+#main-content .post .normal-post footer{
+    background: #f3f3f3;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #ddd;
+    padding: 25px 25px;
+    margin: 0 10px;
+    height: 95px;
+}
+
+#main-content .post .normal-post footer .comentario{
+    font-family: Dosis;
+    font-size: 17px;
+    color: #999;
+}
+
+#main-content .post .normal-post footer .comentario .fa{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+#main-content .post .normal-post footer .comentario #number-comments{
+    padding-bottom: 10px;
+}
+
+#main-content .post .normal-post footer .social-icons .facebook,
+#main-content .post .normal-post footer .social-icons .twitter,
+#main-content .post .normal-post footer .social-icons .pinit{
+    float: right;
+}
+
+#main-content .post .normal-post footer .social-icons .pinit{
+    margin: 20px 10px 0 0;
+}
+
+#main-content .post .normal-post footer .social-icons .twitter{
+    margin: 20px 0 0 10px;
+}
+
+#main-content .post .normal-post footer .social-icons .fb-like{
+    margin-right: 6px;
+}
+
+
+/**********************
+***ASIDE POST HEADER***
+***********************/
+#main-content .post .aside-post{
+    background: #fff;
+    margin: 0 10px;
+    height: auto;
+}
+
+#main-content .post .aside-post .thumbnail-aside-post{
+    padding: 10px;
+    border: 1px #ddd solid;
+    min-height: 233px;
+    width: 233px;
+    background: #f5f5f5;
+    float: left;
+}
+
+#main-content .post .aside-post .content-aside-post{
+    padding: 0;
+    float: right;
+    border: 1px solid #ddd;
+    border-left: 0;
+}
+
+#main-content .post .aside-post .content-aside-post header{
+    position: relative;
+    padding: 1em 1.4em 1em 1.4em;
+    width: 477px;
+    background: #143052;
+    border-radius: 0 10px 0 0;
+    background: linear-gradient(to bottom, #222E50 0%, #2F323A 100%);
+    margin: 0;
+    color: #fff;
+    font-family: viga;
+}
+#main-content .post .aside-post .content-aside-post header:after {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 0 15px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #222;
+    content: " ";
+}
+
+#main-content .post .aside-post .content-aside-post header a{
+    color: #fff;
+    font-family: viga;
+}
+#main-content .post .aside-post .content-aside-post header a:hover,
+#main-content .post .aside-post .content-aside-post header a:active{
+    text-decoration: none;
+}
+
+#main-content .post .aside-post .content-aside-post header h1.title-aside-post{
+    margin: 0;
+    font-size: 28px;
+}
+
+#main-content .post .aside-post .content-aside-post article{
+    padding: 1em 1.4em 1em 1.4em;
+    min-height: 134px;
+}
+
+#main-content .post .aside-post .content-aside-post footer{
+    border-top: 1px #ddd solid;
+    padding: 10px;
+    min-height: 40px;
+}
+
+#main-content .post .aside-post .content-aside-post footer .comentarios-aside-post{
+    font-family: Dosis;
+    font-size: 16px;
+    height: 20px;
+    color: #999;
+}
+
+#main-content .post .aside-post .content-aside-post footer .comentarios-aside-post .fa{
+    font-size: 22px;
+}
+
+#main-content .post .aside-post .content-aside-post footer .social-btn{
+    float: right;
+}
+
+#main-content .post .aside-post .content-aside-post footer .facebook,
+#main-content .post .aside-post .content-aside-post footer .pinit{
+    margin-right: 20px;
+}
+
+/**************
+****SIDEBAR****
+***************/
+#sidebars{
+    max-width: 360px;
+    width: 100%;
+    float: right;
+}
+
+#sidebars .sidebar:not(:first-child){
+    background: #fff;
+    padding: 15px 15px;
+    margin: 0 auto;
+    font-size: 12pt;
+    box-shadow: 0px 0px 7px #000;
+}
+
+/*ANIMAÇÃO ICONS HOVER*/
+@keyframes social-icon-hover {
+    0% { background-position: 0 100%; }
+    100% { background-position: 52px 100%;}
+}
+
+/*ESTILO PADRÃO PARA OS ICONES*/
+#sidebars #socialIcons .content-social{
+    height: 52px;
+    width: 52px;
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-bg.png");
+    background-size: 52px 52px;
+    display: inline-block;
+    margin: 0 2px
+}
+
+#sidebars #socialIcons .icon-social{
+    height: 52px;
+    width: 52px;
+    background-size: 52px 52px;
+}
+
+#sidebars #socialIcons .border-social{
+    height: 52px;
+    width: 52px;
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-border.png");
+    background-size: 52px 52px;
+}
+
+#sidebars #socialIcons .content-social:hover .icon-social{
+    animation: social-icon-hover 0.40s linear infinite;
+}
+
+/*BG'S ICON'*/
+#fb-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-fb.png");
+}
+#feed-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-rss.png");
+}
+#yt-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-yt.png");
+}
+#tbl-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-tumblr.png");
+}
+#tw-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-tw.png");
+}
+#gplus-icon{
+    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/question.png");
+}
+
+#sidebars #socialApps{
+    text-align: center;
+}
+
+#sidebars #socialApps .tw-follow{
+    margin: 15px 0;
+}
+
+#sidebars #socialApps .gapps{
+    height: 24px;
+}
+
+#sidebars #socialApps .gapps .gyt{
+    float: left;
+    display: inline-block;
+    margin-left: 37px;
+}
+
+#sidebars #socialApps .gapps .gplus{
+    float: right;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+#sidebars .bottom{
+    margin-bottom: 30px;
+}
+
+#sidebars .sidebar header.title{
+    margin-bottom: 20px
+}
+
+
+/**************
+*SIDEBAR TITLE*
+***************/
+#sidebars .sidebar header.title h1{
+    position: relative;
+    padding: 15px 0px 15px 0px;
+    width: 381px;
+    background: #143052;
+    background: linear-gradient(to bottom, #222E50 0%, #2F323A 100%);
+    text-align: center;
+    margin: 0;
+    margin-left: -26px;
+    box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size: 17pt;
+    font-family: viga;
+}
+#sidebars .sidebar header.title h1:before{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 10px 15px 0;
+    border-style: solid;
+    border-color: transparent #222 transparent transparent;
+    content: " ";
+}
+#sidebars .sidebar header.title h1:after {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 0 15px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #222;
+    content: " ";
+}
+
+/**************
+*SIDEBAR MAIS ACESSADOS*
+***************/
+#sidebars #mais-acessados-home .item{
+    border-bottom: solid 1px #ddd;
+    position: relative;
+}
+
+#sidebars #mais-acessados-home .item .thumb-home-mais-acessados img{
+    border: 3px solid #ddd;
+    width: 100% !important;
+}
+
+#sidebars #mais-acessados-home .item .caption-home-mais-acessados{
+    position: absolute;
+    bottom: 0;
+    border: 3px solid #ddd;
+    border-top: none;
+    color: #fff;
+    font-family: montserrat-regular;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 8px;
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 700;
+}
+
+#sidebars #mais-acessados-home .item .caption-home-mais-acessados p{
+    margin: 0;
+}
+
+#sidebars #mais-acessados-home .item .caption-home-mais-acessados .total_views{
+    color: goldenrod;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
+
+#sidebars #parceiros a:hover{
+    text-decoration: none;
+}
+
+
+/**************
+***PAGINACAO***
+***************/
+#paginacao{
+    margin-top: 30px;
+}
+
+#paginacao .wp-pagenavi .current,
+#paginacao .wp-pagenavi .page,
+#paginacao .wp-pagenavi .nextpostslink,
+#paginacao .wp-pagenavi .previouspostslink{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6em;
+    float: left;
+    line-height: 0.8em;
+    font-weight: 500;
+    padding: 0.5em 0.6em 0.5em .6em;
+    color: #143052;
+    background-color: #fff;
+    margin-left: 8px;
+}
+
+#paginacao .wp-pagenavi .current:hover,
+#paginacao .wp-pagenavi .page:hover,
+#paginacao .wp-pagenavi .nextpostslink:hover,
+#paginacao .wp-pagenavi .previouspostslink:hover{
+    background: #143052;
+    color: #fff;
+}
+
+#paginacao .wp-pagenavi .current{
+    background: #143052;
+    color: #fff;
+}
+
+/**************
+*****FOOTER****
+***************/
+footer#footer{
+    font-family: Lato;
+}
+
+footer#footer #footer-wrapper{
+    background: linear-gradient(to bottom, #2F323A 0%, #000 50%);
+    padding: 0 150px;
+    color: #fff;
+}
+
+footer#footer #bgFooter{
+    height: 165px;
+    /*background: url("/wordpress/wp-content/themes/nerdwars/imagens/fundoFooter.png");*/
+    width: 100%;
+    border-bottom: 2px solid #2F323A;
+}
+
+footer#footer #footer-wrapper #footer-content{
+    min-height: 150px;
+}
+
+footer#footer #footer-wrapper #footer-content #footer-menu{
+    padding: 30px 0 8px 0;
+}
+
+#back-to-top{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#icon-top{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px 0;
+    margin-top: -30px;
+    cursor: pointer;
+    border: solid 2px #2F323A;
+}
+
+#icon-top a{
+    color: #2F323A;
+}
+
+footer#footer #footer-wrapper #footer-content #footer-menu .divisor{
+    margin: 0 10px;
+    font-family: viga;
+}
+
+footer#footer #footer-wrapper #footer-content #footer-menu ul{
+    padding: 0;
+}
+
+footer#footer #footer-wrapper #footer-content #footer-menu ul li{
+    display: inline;
+}
+
+footer#footer #footer-wrapper #footer-content #footer-menu ul li a{
+    color: #fff;
+}
+
+footer#footer #footer-wrapper #footer-content .copy{
+    text-align: center;
+}
+
+footer#footer #footer-wrapper #footer-content .copy span{
+    margin-left: 5px;
+    transform: rotate(15deg);
+    display: inline-block;
+}
