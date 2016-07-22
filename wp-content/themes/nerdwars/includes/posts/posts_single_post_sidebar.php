@@ -95,7 +95,14 @@
 
     <div id="adsSidebar" class="sidebar">
         <div class="content">
-            Anuncio
+           <!-- barra_lateral_quadrado -->
+            <ins class="adsbygoogle"
+                 style="display: inline-block; width:336px; height:280px"
+                 data-ad-client="ca-pub-1115152779004290"
+                 data-ad-slot="7847237193"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </div>                                            
     <div class="bottom"></div>

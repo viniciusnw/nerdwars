@@ -20,7 +20,7 @@
                                                             
                     <div class="copy row">
                         <div class="col-md-12">
-                            &copy; 2011 - <?=date('Y')?> <b>Nerd Wars</b> <span>2.1 beta</span> <br><br>
+                            &copy; 2011 - <?=date('Y')?> <b>Nerd Wars</b> <span>3.0 beta</span> <br><br>
                             <small>Todos <i>ou alguns</i> direitos reservados.</small>
                         </div>
                     </div>
