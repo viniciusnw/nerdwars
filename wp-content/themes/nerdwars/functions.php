@@ -6,9 +6,9 @@
 
 /* Abilita thumbnail */
 add_theme_support('post-thumbnails');
+
 /* Abilita suporte ao Post Formats. */
 add_theme_support( 'post-formats', array( 'aside') );
-
 
 /*
  * Adiciona a função de cortar o texto do post para as postagens do tipo aside
@@ -44,9 +44,9 @@ function posts_relacionados() {
     
     $args = array(
         'posts_per_page' => 5,
-        'cat'  => $categorias,
-        'post__not_in' => array( get_the_ID() ),
-        'orderby' => 'rand'
+        'cat'            => $categorias,
+        'post__not_in'   => array( get_the_ID() ),
+        'orderby'        => 'rand'
     ); 
     
     $the_query = new WP_Query( $args );  
@@ -126,4 +126,26 @@ function foundation_q_register_metaboxes() {
         'id'   => $prefix . 'barra_lateral',
         'type' => 'checkbox',
     ]);
+}
+
+/*
+ * Recupera o titulo da pagina atual
+ * <title></title>
+ */
+function get_home_title(){
+    if (is_home()){
+        bloginfo('name');
+    }
+    else if (is_category()){
+        single_cat_title(); echo ' -  ' ; bloginfo('name');
+    }
+    else if (is_single()){
+        single_post_title();
+    }
+    else if (is_page()){
+        bloginfo('name'); echo ': '; single_post_title();
+    }
+    else {
+        wp_title('',true);
+    } 
 }

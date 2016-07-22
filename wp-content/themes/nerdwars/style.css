@@ -22,6 +22,32 @@ body{
     text-transform: uppercase;
 }
 
+/*HEADER BGs ALEATORIOS*/
+    #header #titleBg{
+        min-height: 340px;
+    }
+
+    #header #titleBg #titleBg2{
+        min-height: 340px;
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat
+    }
+    
+    #header #logo{
+        position: absolute;
+        top: -290px;
+        z-index: 100;
+        left: -320px;
+    }
+    
+    #header #logo a{
+        width: 340px;
+        height: 340px;
+        display: block;
+        border-radius: 220px;
+    }
+
 #menu_topo{
     border-radius: 0;
     border: 0;
@@ -771,17 +797,17 @@ footer#footer{
     font-family: Lato;
 }
 
-footer#footer #footer-wrapper{
-    background: linear-gradient(to bottom, #2F323A 0%, #000 50%);
-    padding: 0 150px;
-    color: #fff;
-}
-
 footer#footer #bgFooter{
     height: 165px;
     /*background: url("/wordpress/wp-content/themes/nerdwars/imagens/fundoFooter.png");*/
     width: 100%;
     border-bottom: 2px solid #2F323A;
+}
+
+footer#footer #footer-wrapper{
+    background: linear-gradient(to bottom, #222E50 0%, #2F323A 70%);
+    padding: 0 150px;
+    color: #fff;
 }
 
 footer#footer #footer-wrapper #footer-content{
@@ -807,11 +833,11 @@ footer#footer #footer-wrapper #footer-content #footer-menu{
     padding: 10px 0;
     margin-top: -30px;
     cursor: pointer;
-    border: solid 2px #2F323A;
+    background:#222E50;
 }
 
 #icon-top a{
-    color: #2F323A;
+    color: #fff;
 }
 
 footer#footer #footer-wrapper #footer-content #footer-menu .divisor{

@@ -31,13 +31,20 @@
                             Desenvolvimento por <b>Vinícius Inácio</b> <br>
                         </div>
 
-                        <div class="col-md-4">
-                        </div>
+                        <div align="right" class="col-xs-offset-4 col-md-4">
+                            <form style="padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=NerdWars', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
 
-                        <div align="right" class="col-md-4">
+                                <p class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </span>
+                                    <input type="text" name="email" class="form-control" placeholder="Email">
+                                </p>
 
-                            <script id="_waup21">var _wau = _wau || []; _wau.push(["small", "6gqwbmhaj2a2", "p21"]);(function() { var s=document.createElement("script"); s.async=true; s.src="http://widgets.amung.us/small.js";document.getElementsByTagName("head")[0].appendChild(s);})();
-                            </script>
+                                <input type="hidden" value="NerdWars" name="uri">
+                                <input type="hidden" name="loc" value="pt_BR">
+                                <input type="submit" class="btn btn-danger" value="Assinar">
+                            </form>
                         </div>
                     </div>
 

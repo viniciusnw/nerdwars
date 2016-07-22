@@ -4,9 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/single.php</file>
+            <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/includes/posts/posts_single_post_sidebar.php</file>
             <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/header.php</file>
-            <file>file:/C:/wamp/www/nerdwars/wp-config.php</file>
-            <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/includes/header_banner_css.php</file>
+            <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/includes/page_sidebar.php</file>
+            <file>file:/C:/wamp/www/nerdwars/.htaccess</file>
             <file>file:/C:/wamp/www/nerdwars/wp-content/themes/nerdwars/footer.php</file>
         </group>
     </open-files>

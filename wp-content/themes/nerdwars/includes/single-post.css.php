@@ -66,7 +66,7 @@
     /*SEM BARRA LATERAL*/
     <?php if( ! $barra_lateral_single_post ) :?>
         body{
-            background: url("/nerdwars/wp-content/themes/nerdwars/imagens/bg.jpg");
+            background: url("/wp-content/themes/nerdwars/imagens/bg.jpg");
             overflow-x: hidden;
         }
         

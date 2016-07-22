@@ -36,7 +36,7 @@
             <?php endwhile; else:?><?php endif;?>
         </section><!-- / PAGE -->
 
-        <?php include(TEMPLATEPATH . '/includes/page_sidebar.php'); ?>
+        <?php include(TEMPLATEPATH . '/sidebar-page-cat.php'); ?>
         <div class="clearfix"></div><!-- SEPARADOR -->
     </div>
 </main><!-- / CONTEUDO PRINCIPAL -->

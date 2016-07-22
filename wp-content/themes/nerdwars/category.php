@@ -73,7 +73,7 @@
             <?php endwhile; else:?><?php endif;?>
         </section><!-- / POSTS -->
 
-        <?php include(TEMPLATEPATH . '/includes/categorys_sidebar.php'); ?>
+        <?php include(TEMPLATEPATH . '/sidebar-page-cat.php'); ?>
         <div class="clearfix"></div><!-- SEPARADOR -->
 
         <section id="paginacao">

@@ -25,7 +25,7 @@
          * BG sem Barra lateral
          * Sem ambos
          */
-        include(TEMPLATEPATH . '/includes/posts/posts_single_post_css.php');
+        include(TEMPLATEPATH . '/includes/single-post.css.php');
 ?>
 
 <!-- CONTEUDO PRINCIPAL -->
@@ -179,9 +179,9 @@
                 </div>
             </div>
         </section><!-- / POSTS -->
-    <?php endwhile; else:?><?php endif;?>
+    <?php endwhile; endif;?>
 
-    <?php include(TEMPLATEPATH . '/includes/posts/posts_single_post_sidebar.php'); ?>
+    <?php include(TEMPLATEPATH . '/sidebar-single.php'); ?>
     </div>
 </main><!-- / CONTEUDO PRINCIPAL -->
 

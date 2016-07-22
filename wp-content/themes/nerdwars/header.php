@@ -6,23 +6,16 @@
         <meta name="description" content="">
         <meta name="author" content="">
         
+        <meta property="og:url"         content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+        <meta property="og:type"        content="article" />
+        <meta property="og:title"       content="When Great Minds Don’t Think Alike" />
+        <meta property="og:description" content="How much does culture influence creative thinking?" />
+        <meta property="og:image"       content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+        
         <title>
-            <?php if (is_home()){
-                bloginfo('name');
-            }
-            else if (is_category()){
-                single_cat_title(); echo ' -  ' ; bloginfo('name');
-            }
-            else if (is_single()){
-                single_post_title();
-            }
-            else if (is_page()){
-                bloginfo('name'); echo ': '; single_post_title();
-            }
-            else {
-                wp_title('',true);
-            } ?>
+            <?php get_home_title();?>
         </title>
+        
         <!-- Fonts -->
         <link href="<?php bloginfo('template_directory'); ?>/css/fonts.css" rel="stylesheet" type="text/css"/>
         
@@ -41,14 +34,14 @@
             @import url( <?php bloginfo('stylesheet_url'); ?> );
         </style>
         
-        <?php include(TEMPLATEPATH . '/includes/header_banner_css.php');?>
+        <?php include(TEMPLATEPATH . '/includes/rand-background.css.php');?>
     
         
         <!-- CSS's Personalizados -->
         <?php if( is_single() ) :?>
-            <link href="<?php bloginfo('template_directory'); ?>/css/single_page_post.css" rel="stylesheet" type="text/css"/>
+            <link href="<?php bloginfo('template_directory'); ?>/css/single.css" rel="stylesheet" type="text/css"/>
         <?php elseif( is_category() ) :?>
-            <link href="<?php bloginfo('template_directory'); ?>/css/categorys_page.css" rel="stylesheet" type="text/css"/>
+            <link href="<?php bloginfo('template_directory'); ?>/css/categorys.css" rel="stylesheet" type="text/css"/>
         <?php elseif( is_page() ) :?>
             <link href="<?php bloginfo('template_directory'); ?>/css/page.css" rel="stylesheet" type="text/css"/>
         <?php endif; ?>
@@ -62,9 +55,7 @@
         <header id="header">
             
             <div id="titleBg">
-                <div id="titleBg2">
-                    
-                </div>
+                <div id="titleBg2"></div>
             </div>
             
             <nav id="menu_topo" class="navbar navbar-inverse" role="navigation">
@@ -86,9 +77,7 @@
                             
                             <li>            
                                 <div id="logo">
-                                    <a title="Home" href="<?php echo get_settings('home'); ?>">
-
-                                    </a>
+                                    <a title="Home" href="<?php echo get_settings('home'); ?>"></a>
                                 </div>
                             </li>
                             

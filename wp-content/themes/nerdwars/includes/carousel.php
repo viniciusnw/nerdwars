@@ -76,7 +76,7 @@
             <a href="<?php bloginfo('url') ?>/category/tirinhas" id="item2" class="item col-md-2">Tirinhas</a>
             <a href="<?php bloginfo('url') ?>/category/animes-e-mangas" id="item3" class="item col-md-2">Animes e Mangás</a>
             <a href="<?php bloginfo('url') ?>/category/hqs" id="item4" class="item col-md-2">HQ's</a>
-            <a href="<?php bloginfo('url') ?>/category/filmes-series" id="item5" class="item col-md-2">Series e Filmes</a>
+            <a href="<?php bloginfo('url') ?>/category/filmes-series" id="item5" class="item col-md-2">Filmes e Séries</a>
             
             <a href="<?php bloginfo('url') ?>/category/toda-a-galaxia" id="item6" class="item col-md-2" style="font-size: 1.6rem; padding: 8px 0;">
                 Toda a galáxia reunida em um só post

@@ -125,25 +125,10 @@
     </div>
     <div class="bottom"></div>
     
-    <div id="feedEmail" class="sidebar">
-        <header class="title">
-            <h1>Acompanhe por E-mail</h1>
-        </header>
-
-        <div class="content">
-            <form style="padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=NerdWars', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                <p class="input-group">
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                    </span>
-                    <input type="text" name="email" class="form-control" placeholder="Email">
-                </p>
-
-                <input type="hidden" value="NerdWars" name="uri">
-                <input type="hidden" name="loc" value="pt_BR">
-                <input type="submit" class="btn btn-danger" value="Assinar">
-            </form>
-        </div>
+    <div id="online" class="sidebar">
+        <script id="_waup21">
+            var _wau = _wau || []; _wau.push(["small", "6gqwbmhaj2a2", "p21"]);(function() { var s=document.createElement("script"); s.async=true; s.src="http://widgets.amung.us/small.js";document.getElementsByTagName("head")[0].appendChild(s);})();
+        </script>
     </div>                    
     <div class="bottom"></div>
 
@@ -168,7 +153,6 @@
                 <img class="img-thumbnail" src="http://i40.tinypic.com/347ttu8.png" width="94px" height="94px" title="Recanto do dragão">
             </a>
             
-            <br>
             <a href="http://www.nintendista.blog.br/" target="_blank">
                 <img class="img-thumbnail" src="http://i60.tinypic.com/2hed45z.jpg" width="94px" height="94px" title="Nintendista" alt="">
             </a>
@@ -184,15 +168,7 @@
             <a href="http://www.amigosdoforum.com.br/" target="_blank">
                 <img class="img-thumbnail" src="http://i48.tinypic.com/ak8tfl.png" width="94px" height="94px" title="Amigos do Fórum" alt="">
             </a>
-            
-            <a href="http://www.geekconectado.com/" target="_blank">
-                <img class="img-thumbnail" src="http://i45.tinypic.com/3442gqq.png" width="94px" height="94px" title="Geek Conectado" alt="">
-            </a>
-            
-            <a href="http://www.nesseuniversoparalelo.com/" target="_blank">
-                <img class="img-thumbnail" src="http://i62.tinypic.com/2efmb13.png" width="94px" height="94px" title="Nesse Universo Paralelo">
-            </a>
-            
+
             <a href="http://www.zonanerd.com.br/" target="_blank">
                 <img class="img-thumbnail" src="http://i45.tinypic.com/2jbwb4k.jpg" width="94px" height="94px" title="Zona Nerd">
             </a>
@@ -201,32 +177,8 @@
                 <img class="img-thumbnail" src="http://i50.tinypic.com/efztc.png" width="94px" height="94px" title="Main Quest">
             </a>
             
-            <a href="http://voliurso.com/" target="_blank">
-                <img class="img-thumbnail" src="http://i57.tinypic.com/2a01blu.jpg" width="94px" height="94px" title="Voliurso">
-            </a>
-            
             <a href="http://www.zonadoguaxinim.com.br/" target="_blank">
                 <img class="img-thumbnail" src="http://i50.tinypic.com/dnm5ib.png" width="94px" height="94px" title="Zona do Guaxinim">
-            </a>
-            
-            <a href="http://www.nerdturbo.com.br/" target="_blank">
-                <img class="img-thumbnail" src="http://i49.tinypic.com/2wnv8dc.png" width="94px" height="94px" title="Nerd Turbo">
-            </a>
-            
-            <a href="http://www.bropengames.com/" target="_blank">
-                <img class="img-thumbnail" src="http://i47.tinypic.com/9rio45.png" width="94px" height="94px" title="Bropen Games" alt="">
-            </a>
-            
-            <a href="http://www.geekzando.com/" target="_blank">
-                <img class="img-thumbnail" src="http://i.imgur.com/qrffvq4.png" width="94px" height="94px" title="Geekzando">
-            </a>
-            
-            <a href="http://www.colmeia.blog.br/" target="_blank">
-                <img class="img-thumbnail" src="http://i57.tinypic.com/166g6qq.jpg" width="94px" height="94px" title="Colmeia">
-            </a>
-            
-            <a href="http://www.atoananet.com.br/" target="_blank"
-               ><img class="img-thumbnail" src="http://i57.tinypic.com/2a0luls.jpg" width="94" height="94" title="Atoa na Net">
             </a>
             
             <a href="http://culturagame.com.br/" target="_blank">
@@ -235,10 +187,6 @@
             
             <a href="http://www.oguianerdbrasil.com.br/" target="_blank">
                 <img class="img-thumbnail" src="http://i58.tinypic.com/14algrr.jpg" width="94" height="94" title="O Guia Nerd">
-            </a>
-            
-            <a href="http://cafeinacodificada.blogspot.com.br/" target="_blank">
-                <img class="img-thumbnail" src="http://i59.tinypic.com/abtezp.jpg" width="94" height="94" title="Cafeína Codificada">
             </a>
             </center>        
         </div>
