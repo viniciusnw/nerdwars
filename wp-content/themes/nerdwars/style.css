@@ -9,7 +9,7 @@ Tags: blog, nerd, humor, games, animes, geek
 */
 
 body{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/bg.jpg");
+    background: url("./imagens/bg.jpg");
     overflow-x: hidden;
 }
 
@@ -569,7 +569,7 @@ body{
 #sidebars #socialIcons .content-social{
     height: 52px;
     width: 52px;
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-bg.png");
+    background: url("imagens/icons/social-icon-bg.png");
     background-size: 52px 52px;
     display: inline-block;
     margin: 0 2px
@@ -584,7 +584,7 @@ body{
 #sidebars #socialIcons .border-social{
     height: 52px;
     width: 52px;
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-border.png");
+    background: url("imagens/icons/social-icon-border.png");
     background-size: 52px 52px;
 }
 
@@ -594,22 +594,22 @@ body{
 
 /*BG'S ICON'*/
 #fb-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-fb.png");
+    background: url("imagens/icons/social-icon-fb.png");
 }
 #feed-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-rss.png");
+    background: url("imagens/icons/social-icon-rss.png");
 }
 #yt-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-yt.png");
+    background: url("imagens/icons/social-icon-yt.png");
 }
 #tbl-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-tumblr.png");
+    background: url("imagens/icons/social-icon-tumblr.png");
 }
 #tw-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/social-icon-tw.png");
+    background: url("imagens/icons/social-icon-tw.png");
 }
 #gplus-icon{
-    background: url("/nerdwars/wp-content/themes/nerdwars/imagens/icons/question.png");
+    background: url("imagens/icons/question.png");
 }
 
 #sidebars #socialApps{
